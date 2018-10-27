@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>DC69498E-9582-46B1-9793-271DF9CBFF18</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DC69498E-9582-46B1-9793-271DF9CBFF18.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>TaxiBookingApp01 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TaxiBookingApp01</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project TaxiBookingApp01 with scheme TaxiBookingApp01 and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>562339380.947263</real>
+			<key>timeStoppedRecording</key>
+			<real>562339383.17790902</real>
+			<key>title</key>
+			<string>Building project TaxiBookingApp01 with scheme TaxiBookingApp01 and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>DC69498E-9582-46B1-9793-271DF9CBFF18</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
