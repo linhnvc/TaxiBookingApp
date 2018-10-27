@@ -7,10 +7,13 @@
     "test": "jest"
   },
   "dependencies": {
+    "native-base": "^2.8.1",
     "prop-types": "^15.6.2",
     "react": "16.6.0-alpha.8af6728",
     "react-addons-update": "^15.6.2",
     "react-native": "0.57.4",
+    "react-native-google-maps": "^1.0.0",
+    "react-native-maps": "^0.22.0",
     "react-native-router-flux": "^4.0.5",
     "react-redux": "^5.1.0",
     "redux": "^4.0.1",

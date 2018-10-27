@@ -9,4 +9,48 @@ dependencies: \
   /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
   /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
   /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
-  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSDeprecationMacros.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h

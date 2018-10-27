@@ -1,6 +1,8 @@
 dependencies: \
   /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/node_modules/react-native/Libraries/NativeAnimation/RCTNativeAnimatedNodesManager.m \
   /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/node_modules/react-native/Libraries/NativeAnimation/RCTNativeAnimatedNodesManager.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTValueAnimatedNode.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTAnimatedNode.h \
   /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
   /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
   /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManager.h \
@@ -26,8 +28,6 @@ dependencies: \
   /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
   /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
   /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTAdditionAnimatedNode.h \
-  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTValueAnimatedNode.h \
-  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTAnimatedNode.h \
   /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/node_modules/react-native/Libraries/NativeAnimation/Drivers/RCTAnimationDriver.h \
   /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTDiffClampAnimatedNode.h \
   /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTDivisionAnimatedNode.h \

@@ -1,0 +1,44 @@
+dependencies: \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/node_modules/react-native-maps/lib/ios/AirMaps/AIRMapManager.m \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Target\ Support\ Files/react-native-maps/react-native-maps-prefix.pch \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/node_modules/react-native-maps/lib/ios/AirMaps/AIRMapManager.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Headers/Public/React/React/RCTViewManager.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Headers/Public/React/React/RCTBridgeModule.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Headers/Public/React/React/RCTDefines.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Headers/Public/React/React/RCTConvert.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Headers/Public/React/React/RCTAnimationType.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Headers/Public/React/React/RCTBorderStyle.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Headers/Public/React/React/RCTLog.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Headers/Public/React/React/RCTAssert.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Headers/Public/React/React/RCTUtils.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Headers/Public/React/React/RCTPointerEvents.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Headers/Public/React/React/RCTTextDecorationLineType.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Headers/Private/yoga/Yoga.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Headers/Private/yoga/YGEnums.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Headers/Private/yoga/YGMacros.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Headers/Public/React/React/RCTEventDispatcher.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Headers/Public/React/React/RCTBridge.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Headers/Public/React/React/RCTBridgeDelegate.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Headers/Public/React/React/RCTJavaScriptLoader.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Headers/Public/React/React/RCTFrameUpdate.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Headers/Public/React/React/RCTInvalidating.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Headers/Public/React/React/UIView+React.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Headers/Public/React/React/RCTComponent.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/node_modules/react-native-maps/lib/ios/AirMaps/AIRMap.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/node_modules/react-native-maps/lib/ios/AirMaps/Callout/SMCalloutView.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/node_modules/react-native-maps/lib/ios/AirMaps/RCTConvert+AirMap.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Headers/Public/React/React/RCTUIManager.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Headers/Public/React/React/RCTRootView.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Headers/Public/React/React/RCTConvert+CoreLocation.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/node_modules/react-native-maps/lib/ios/AirMaps/AIRMapMarker.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/node_modules/react-native-maps/lib/ios/AirMaps/AIRMapCallout.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/Headers/Public/React/React/RCTView.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/node_modules/react-native-maps/lib/ios/AirMaps/AIRMapPolyline.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/node_modules/react-native-maps/lib/ios/AirMaps/AIRMapCoordinate.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/node_modules/react-native-maps/lib/ios/AirMaps/AIRMapPolygon.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/node_modules/react-native-maps/lib/ios/AirMaps/AIRMapCircle.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/node_modules/react-native-maps/lib/ios/AirMaps/AIRMapUrlTile.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/node_modules/react-native-maps/lib/ios/AirMaps/AIRMapLocalTile.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/node_modules/react-native-maps/lib/ios/AirMaps/AIRMapSnapshot.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/node_modules/react-native-maps/lib/ios/AirMaps/AIRMapOverlay.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/node_modules/react-native-maps/lib/ios/AirMaps/AIRMapOverlayRenderer.h
