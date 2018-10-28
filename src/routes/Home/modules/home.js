@@ -6,9 +6,9 @@ import { Dimensions } from 'react-native';
 const { GET_CURRENT_LOCATION } = constants;
 
 const { width, height } = Dimensions.get('window');
-const ASPECT_RATION = width / height;
+const ASPECT_RATIO = width / height;
 const LATITUDE_DELTA = 0.0922;
-const LONGITUDE_DELTA = ASPECT_RATION * LATITUDE_DELTA;
+const LONGITUDE_DELTA = ASPECT_RATIO * LATITUDE_DELTA;
 
 
 // Actions
@@ -19,10 +19,13 @@ export function getCurrentLocation() {
                 dispatch({
                     type: GET_CURRENT_LOCATION,
                     payload: position
-                })
+                    
+                });
+                
             },
+            
             (error) => console.log(error.message),
-            { enableHighAccuracy: true, timeout: 20000, maximumAge: 1000 }
+            { enableHighAccuracy: false, timeout: 20000, maximumAge: 1000 }
         );
     }
 }
@@ -33,12 +36,14 @@ function handleGetCurrentLocation(state, action) {
         region: {
             latitude: {
                 $set: action.payload.coords.latitude
+                // $set: 20.99
             },
-            longtitude: {
-                $set: action.payload.coords.longtitude
+            longitude: {
+                $set: action.payload.coords.longitude
+                // $set: 105.85
             },
             latitudeDelta: {
-                $set: LATITUDE_DELTA 
+                $set: LATITUDE_DELTA
             },
             longitudeDelta: {
                 $set: LONGITUDE_DELTA
@@ -53,7 +58,12 @@ const ACTION_HANDLERS = {
     GET_CURRENT_LOCATION: handleGetCurrentLocation
 }
 const initialState = {
-    region: {}
+    region: {
+        latitude:21.027763,
+        longitude:105.834160,
+        latitudeDelta:0.0922,
+        longitudeDelta: 0.0421
+    }
 };
 
 export function HomeReducer (state = initialState, action) {
