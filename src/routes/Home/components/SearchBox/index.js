@@ -5,7 +5,14 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 
 import styles from './SearchBoxStyle';
 
-export const SearchBox = () => {
+export const SearchBox = ({getInputData, toggleSearchResult, getAddressPrediction}) => {
+    function handleInput(key, value) {
+        getInputData({
+            key,
+            value: value
+        });
+        getAddressPrediction();
+    }
 
     return (
         <View style={styles.searchBox}>
@@ -13,14 +20,19 @@ export const SearchBox = () => {
                 <Text style={styles.label}>PICK UP</Text>
                 <InputGroup>
                     <Icon name="search" size={15} color="#ff5e3a"/>
-                    <Input style={styles.inputSearch} placeholder="Choose pick-up location"/>
+                    <Input 
+                        onFocus={() => toggleSearchResult("pickUp")} 
+                        style={styles.inputSearch} 
+                        placeholder="Choose pick-up location" 
+                        onChangeText={handleInput.bind(this, "pickUp")}
+                    />
                 </InputGroup>
             </View>
             <View style={styles.secondInputWrapper}>
                 <Text style={styles.label}>DROP OFF</Text>
                 <InputGroup>
                     <Icon name="search" size={15} color="#ff5e3a"/>
-                    <Input style={styles.inputSearch} placeholder="Choose drop-off location"/>
+                    <Input onFocus={() => toggleSearchResult("dropOff")} style={styles.inputSearch} placeholder="Choose drop-off location" onChangeText={handleInput.bind(this, "dropOff")}/>
                 </InputGroup>
             </View>
         </View>

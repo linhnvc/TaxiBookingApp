@@ -12,11 +12,13 @@ const styles = {
         marginTop:10,
         marginBottom:0,
         backgroundColor:"white",
-        opacity:0.8,
-        borderTopLeftRadius:10,
-        borderTopRightRadius:10,
-        borderBottomWidth: 1,
-        borderColor: '#E8E8FA'
+        opacity:0.9,
+        borderTopLeftRadius:20,
+        borderTopRightRadius:20,
+        //borderBottomWidth: 1,
+        borderColor: '#cccccc',
+        borderBottomColor: '#cccccc',
+        borderWidth: 0.5,
     },
     secondInputWrapper:{
         marginLeft:12,
@@ -24,8 +26,11 @@ const styles = {
         marginTop:0,
         backgroundColor:"white",
         opacity:0.9,
-        borderBottomLeftRadius:10,
-        borderBottomRightRadius:10,
+        borderBottomLeftRadius:20,
+        borderBottomRightRadius:20,
+        borderWidth: 0.5,
+        borderColor: '#cccccc',
+        borderTopColor: '#cccccc',
     },
     inputSearch:{
         fontSize:14

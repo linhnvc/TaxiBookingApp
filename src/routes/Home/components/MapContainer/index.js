@@ -1,10 +1,19 @@
 import React from 'react';
+import { Text } from 'react-native';
 import { View } from 'native-base';
-import MapView from 'react-native-maps';
+import MapView, { PROVIDER_GOOGLE } from 'react-native-maps';
 import styles from './MapContainerStyle';
 import SearchBox from '../SearchBox';
+import SearchResults from '../SearchResults';
 
-export const MapContainer = ({region}) => {
+// const mapStyle = {
+//     transform: [
+//         { rotateY: '180deg'},
+//         { rotateX: '90deg'},
+//     ]
+// }
+
+export const MapContainer = ({region, getInputData, toggleSearchResult, getAddressPrediction, resultType, predictions}) => {
 
     return (
         <View style={styles.container}>
@@ -12,6 +21,7 @@ export const MapContainer = ({region}) => {
                 provider={MapView.PROVIDER_GOOGLE}
                 style={styles.map}
                 region={region}
+                // customMapStyle={mapStyle}
             >
                 <MapView.Marker 
                     coordinate={region}
@@ -20,7 +30,13 @@ export const MapContainer = ({region}) => {
                     description="Hahaha"
                 />
             </MapView>
-            <SearchBox />
+            <SearchBox getInputData={getInputData} toggleSearchResult={toggleSearchResult} 
+                getAddressPrediction={getAddressPrediction}
+            />
+            {
+                (resultType.pickUp || resultType.dropOff) &&
+                <SearchResults predictions={predictions}/>
+            }
         </View>
     );
 }
