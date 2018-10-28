@@ -2,6 +2,7 @@ import React from 'react';
 import { View } from 'native-base';
 import MapView from 'react-native-maps';
 import styles from './MapContainerStyle';
+import SearchBox from '../SearchBox';
 
 export const MapContainer = ({region}) => {
 
@@ -14,9 +15,12 @@ export const MapContainer = ({region}) => {
             >
                 <MapView.Marker 
                     coordinate={region}
-                    pinColor='red'
+                    pinColor='#015102'
+                    title="Linh"
+                    description="Hahaha"
                 />
             </MapView>
+            <SearchBox />
         </View>
     );
 }

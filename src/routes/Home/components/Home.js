@@ -18,16 +18,8 @@ class Home extends React.Component {
         }
         return (
             <Container>
-                
-                    
-                    
-                    <MapContainer region={this.props.region} />
-                
-                    
-                
-                    
-                
-                
+                {this.props.region && <MapContainer region={this.props.region} />}
+
             </Container>
         );
     }
