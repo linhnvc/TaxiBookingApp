@@ -54,7 +54,7 @@ export function getAddressPrediction() {
         let userInput = store().home.resultType.pickUp ? store().home.inputData.pickUp : store().home.inputData.dropOff;
         RNGooglePlaces.getAutocompletePredictions(userInput,
             {
-                country: "MY"
+                country: "VN"
             }    
         )
         .then((results) => 

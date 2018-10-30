@@ -2,14 +2,14 @@ import { Dimensions } from "react-native";
 var width = Dimensions.get("window").width; //full width
 const styles = {
     searchBox:{
-        top:45,
+        top:0,
         position:"absolute",
         width:width
     },
     inputWrapper:{
         marginLeft:12,
         marginRight:12,
-        marginTop:10,
+        marginTop:12,
         marginBottom:0,
         backgroundColor:"white",
         opacity:0.9,
