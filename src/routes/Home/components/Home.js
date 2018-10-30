@@ -3,7 +3,8 @@ import { View, Text } from 'react-native';
 import { Container } from 'native-base';
 
 import MapContainer from './MapContainer';
-import HeaderComponent from '../../../components/HeaderComponent/index'
+import HeaderComponent from '../../../components/HeaderComponent/index';
+import FooterComponent from '../../../components/FooterComponent';
 
 class Home extends React.Component {
 
@@ -31,7 +32,7 @@ class Home extends React.Component {
                         predictions={this.props.predictions}
                     />
                 }
-
+                <FooterComponent />
             </Container>
         );
     }
