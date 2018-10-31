@@ -5,6 +5,7 @@ import { Container } from 'native-base';
 import MapContainer from './MapContainer';
 import HeaderComponent from '../../../components/HeaderComponent/index';
 import FooterComponent from '../../../components/FooterComponent';
+import Fare from './Fare';
 
 class Home extends React.Component {
 
@@ -30,8 +31,14 @@ class Home extends React.Component {
                         getAddressPrediction={this.props.getAddressPrediction}
                         resultType={this.props.resultType}
                         predictions={this.props.predictions}
+                        getSelectedAddress={this.props.getSelectedAddress}
+                        selectedAddress={this.props.selectedAddress}
                     />
                 }
+                {
+                    this.props.fare && <Fare fare={this.props.fare} />
+                }
+               
                 <FooterComponent />
             </Container>
         );

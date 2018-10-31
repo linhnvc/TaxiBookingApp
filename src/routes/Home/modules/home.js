@@ -3,9 +3,17 @@ import constants from './actionConstants';
 import { Dimensions } from 'react-native';
 import RNGooglePlaces from 'react-native-google-places';
 
+import request from '../../../util/request';
+import calculateFare from '../../../util/fareCalculator';
+
 // Constant
-const { GET_CURRENT_LOCATION, GET_INPUT, TOGGLE_SEARCH_RESULT,
-    GET_ADDRESS_PREDICTIONS
+const { GET_CURRENT_LOCATION, 
+    GET_INPUT, 
+    TOGGLE_SEARCH_RESULT,
+    GET_ADDRESS_PREDICTIONS,
+    GET_SELECTED_ADDRESS,
+    GET_DISTANCE_MATRIX,
+    GET_FARE
 } = constants;
 
 const { width, height } = Dimensions.get('window');
@@ -14,6 +22,9 @@ const LATITUDE_DELTA = 0.022; //0.0922
 const LONGITUDE_DELTA = ASPECT_RATIO * LATITUDE_DELTA;
 
 
+// -------------------------------------------------------------------------------------
+// -------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------
 // Actions
 export function getCurrentLocation() {
     return (dispatch) => {
@@ -67,8 +78,62 @@ export function getAddressPrediction() {
     };
 }
 
+// Get selected address
+export function getSelectedAddress(payload) {
+    const dummyNumbers = {
+        baseFare: 0.4, 
+        timeRate: 0.14,  
+        distanceRate: 0.97, 
+        surge: 1
+    }
+    return (dispatch, store) => {
+        RNGooglePlaces.lookUpPlaceByID(payload)
+        .then((results) => {
+            dispatch({
+                type: GET_SELECTED_ADDRESS,
+                payload: results
+            })
+        })
+        .then(() => {
+            // get distance and time
+            if (store().home.selectedAddress.selectedPickUp && store().home.selectedAddress.selectedDropOff) {
+                request.get("https://maps.googleapis.com/maps/api/distancematrix/json")
+                .query({
+                    origins: store().home.selectedAddress.selectedPickUp.latitude + "," + store().home.selectedAddress.selectedPickUp.longitude,
+                    destinations: store().home.selectedAddress.selectedDropOff.latitude + "," + store().home.selectedAddress.selectedDropOff.longitude,
+                    mode: "driving",
+                    key: "AIzaSyDUYbTR-3PDWPhgxjENs4yf35g2eHc641s"
+                })
+                .finish((error, res) => {
+                    dispatch({
+                        type: GET_DISTANCE_MATRIX,
+                        payload: res.body
+                    })
+                })
+            }
+            setTimeout(function(){
+                if (store().home.selectedAddress.selectedPickUp && store().home.selectedAddress.selectedDropOff) {
+                    const fare = calculateFare(
+                        dummyNumbers.baseFare,
+                        dummyNumbers.timeRate,
+                        store().home.distanceMatrix.rows[0].elements[0].duration.value,
+                        dummyNumbers.distanceRate,
+                        store().home.distanceMatrix.rows[0].elements[0].distance.value,
+                        dummyNumbers.surge
+                    );
+                    dispatch({
+                        type: GET_FARE,
+                        payload: fare
+                    })
+                }
+            }, 1000)
+        })
+        .catch((error) => console.log(error.message));
+    }
+}
 
 
+// -------------------------------------------------------------------------------------
 // -------------------------------------------------------------------------------------
 // Action handler
 function handleGetCurrentLocation(state, action) {
@@ -143,6 +208,42 @@ function handleGetAddressPredictions(state, action) {
     })
 }
 
+function handleGetSelectedAddress(state, action) {
+    let selectedTitle = state.resultType.pickUp ? "selectedPickUp" : "selectedDropOff";
+    return update(state, {
+        selectedAddress: {
+            [selectedTitle]: {
+                $set: action.payload
+            }
+            
+        },
+        // ẩn kết quả tìm kiếm khi ấn chọn 1 địa điểm 
+        resultType: {
+            pickUp: {
+                $set: false
+            },
+            dropOff: {
+                $set: false
+            }
+        }
+    })
+}
+
+function handleGetDistanceMatrix(state,action) {
+    return update(state, {
+        distanceMatrix: {
+            $set: action.payload
+        }
+    })
+}
+
+function handleGetFare(state, action) {
+    return update(state, {
+        fare: {
+            $set: action.payload
+        }
+    })
+}
 
 
 
@@ -151,7 +252,10 @@ const ACTION_HANDLERS = {
     GET_CURRENT_LOCATION: handleGetCurrentLocation,
     GET_INPUT: handleGetInputData,
     TOGGLE_SEARCH_RESULT: handleToggleSearchResult,
-    GET_ADDRESS_PREDICTIONS: handleGetAddressPredictions
+    GET_ADDRESS_PREDICTIONS: handleGetAddressPredictions,
+    GET_SELECTED_ADDRESS: handleGetSelectedAddress,
+    GET_DISTANCE_MATRIX: handleGetDistanceMatrix,
+    GET_FARE: handleGetFare
 }
 const initialState = {
     region: {
@@ -162,6 +266,7 @@ const initialState = {
     },
     inputData: {},
     resultType: {},
+    selectedAddress: {}
 };
 
 export function HomeReducer (state = initialState, action) {

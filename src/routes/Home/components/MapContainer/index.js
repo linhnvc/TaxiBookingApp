@@ -13,7 +13,7 @@ import SearchResults from '../SearchResults';
 //     ]
 // }
 
-export const MapContainer = ({region, getInputData, toggleSearchResult, getAddressPrediction, resultType, predictions}) => {
+export const MapContainer = ({region, getInputData, toggleSearchResult, getAddressPrediction, resultType, predictions, getSelectedAddress, selectedAddress}) => {
 
     return (
         <View style={styles.container}>
@@ -30,12 +30,18 @@ export const MapContainer = ({region, getInputData, toggleSearchResult, getAddre
                     description="Hahaha"
                 />
             </MapView>
-            <SearchBox getInputData={getInputData} toggleSearchResult={toggleSearchResult} 
+            <SearchBox 
+                getInputData={getInputData} 
+                toggleSearchResult={toggleSearchResult} 
                 getAddressPrediction={getAddressPrediction}
+                selectedAddress={selectedAddress}
             />
             {
                 (resultType.pickUp || resultType.dropOff) &&
-                <SearchResults predictions={predictions}/>
+                <SearchResults 
+                    predictions={predictions} 
+                    getSelectedAddress={getSelectedAddress}
+                />
             }
         </View>
     );
