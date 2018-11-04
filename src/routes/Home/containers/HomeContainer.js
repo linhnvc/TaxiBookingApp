@@ -3,6 +3,7 @@ import Home from '../components/Home';
 import { getCurrentLocation, getInputData,
     toggleSearchResult, getAddressPrediction,
     getSelectedAddress,
+    bookCar,
 } from '../modules/home';
 
 const mapStateToProps = (state) => ({
@@ -11,7 +12,8 @@ const mapStateToProps = (state) => ({
     resultType: state.home.resultType || {},
     predictions: state.home.predictions || [],
     selectedAddress: state.home.selectedAddress || {},
-    fare: state.home.fare
+    fare: state.home.fare,
+    booking: state.home.booking || {}
 });
 
 const mapActionCreators = {
@@ -19,7 +21,8 @@ const mapActionCreators = {
     getInputData,
     toggleSearchResult,
     getAddressPrediction,
-    getSelectedAddress
+    getSelectedAddress,
+    bookCar
 };
 
 export default connect(mapStateToProps, mapActionCreators)(Home);
