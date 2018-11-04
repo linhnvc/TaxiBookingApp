@@ -1,6 +1,9 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
+    headerContainer: { 
+        backgroundColor: '#009300' 
+    },
     icon: {
         color: 'white',
         fontSize: 20
@@ -10,8 +13,8 @@ const styles = StyleSheet.create({
     },
     headerText: {
         color: 'white',
-        fontSize: 16,
-        fontWeight: '800'
+        fontSize: 19,
+        
     }
 });
 

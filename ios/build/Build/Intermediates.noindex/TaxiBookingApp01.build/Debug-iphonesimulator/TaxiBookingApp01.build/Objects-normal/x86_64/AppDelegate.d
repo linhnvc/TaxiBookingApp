@@ -53,4 +53,24 @@ dependencies: \
   /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h \
   /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h \
   /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h \
-  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Modules/module.modulemap \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSUserAddedPlace.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesErrors.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesClient.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceTypes.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadataList.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadata.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihoodList.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihood.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAddressComponent.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteViewController.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteTableDataSource.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlace.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteResultsViewController.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompletePrediction.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteMatchFragment.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFilter.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFetcher.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteBoundsMode.h \
+  /Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/ios/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GooglePlaces.h

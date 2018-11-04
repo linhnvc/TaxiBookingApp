@@ -1,0 +1,4 @@
+#Sun Oct 28 15:24:39 ICT 2018
+base.0=/Users/linhnvc/Desktop/ReactNative/TaxiBookingApp01/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

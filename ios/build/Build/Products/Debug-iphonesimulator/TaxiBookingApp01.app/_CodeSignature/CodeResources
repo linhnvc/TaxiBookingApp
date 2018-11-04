@@ -4,9 +4,45 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AntDesign.ttf</key>
+		<data>
+		TneGhDkoD7Q01Gl8e5EScUBsgfM=
+		</data>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
 		Nu4sCiig5ucniWXMZ9DbJd01i3c=
+		</data>
+		<key>Entypo.ttf</key>
+		<data>
+		R4cKZ91Qhxdl95nKqX2ochnuR8U=
+		</data>
+		<key>EvilIcons.ttf</key>
+		<data>
+		kdN36jz0dJCyVsLtCBcEp9q9rgw=
+		</data>
+		<key>Feather.ttf</key>
+		<data>
+		N8tVG0ETiQxSP0aeapsrKcTEm+Q=
+		</data>
+		<key>FontAwesome.ttf</key>
+		<data>
+		E7HqtlqYPHpzvHmXxHnWaUP3xss=
+		</data>
+		<key>FontAwesome5_Brands.ttf</key>
+		<data>
+		grn/4L28SVheCDsHNWSzXlD6Cdc=
+		</data>
+		<key>FontAwesome5_Regular.ttf</key>
+		<data>
+		9g09gMIWA5vFMbtbzLdJj/uNipo=
+		</data>
+		<key>FontAwesome5_Solid.ttf</key>
+		<data>
+		WiG+2H4jPlxeguo6ACFcVEg34SU=
+		</data>
+		<key>Foundation.ttf</key>
+		<data>
+		SyvObHkkk6SlcWtv7C2+/olJLD8=
 		</data>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
 		<data>
@@ -1621,7 +1657,23 @@
 		</dict>
 		<key>Info.plist</key>
 		<data>
-		e8dfcx7qEHDNoFTzkjLBQG3FO1Y=
+		nOutHIVu8quSt6tWp9udbDHo93I=
+		</data>
+		<key>Ionicons.ttf</key>
+		<data>
+		mRu3+slwnNWNo3kBdw79RwPFQu0=
+		</data>
+		<key>MaterialCommunityIcons.ttf</key>
+		<data>
+		PmK9EV4HWGvLGebzfI+xJbJhwQU=
+		</data>
+		<key>MaterialIcons.ttf</key>
+		<data>
+		/AXeMSNOAJD33cKM4bI69AJssdo=
+		</data>
+		<key>Octicons.ttf</key>
+		<data>
+		o/QP7s8JqAqYbxLVfGRtK0Wa+so=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -1633,7 +1685,7 @@
 		</data>
 		<key>PlugIns/TaxiBookingApp01Tests.xctest.dSYM/Contents/Resources/DWARF/TaxiBookingApp01Tests</key>
 		<data>
-		lIkBo0sSPRWoDIF7U5WUyE0j0kc=
+		3rNYoHr6Pjhud8iVL6opyHTqyDU=
 		</data>
 		<key>PlugIns/TaxiBookingApp01Tests.xctest/Info.plist</key>
 		<data>
@@ -1641,15 +1693,34 @@
 		</data>
 		<key>PlugIns/TaxiBookingApp01Tests.xctest/TaxiBookingApp01Tests</key>
 		<data>
-		0FX/DGY1x0jwT201wjMAT832X6A=
+		96KzY0M7E58tyXyl4K90zcTJC4c=
 		</data>
 		<key>PlugIns/TaxiBookingApp01Tests.xctest/_CodeSignature/CodeResources</key>
 		<data>
 		gQC6AeAd9xv3Sw4G5VjktiYGPZ4=
 		</data>
+		<key>SimpleLineIcons.ttf</key>
+		<data>
+		n/uBpaEREuKS8swyPphIa61ZdZk=
+		</data>
+		<key>Zocial.ttf</key>
+		<data>
+		C9pZx7zT05J94EfgkYdaRCi/0as=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AntDesign.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TneGhDkoD7Q01Gl8e5EScUBsgfM=
+			</data>
+			<key>hash2</key>
+			<data>
+			eVXKFBJ7MEEsEU6xPP1wK12rJl/rGIDRaV1zyqgkzeE=
+			</data>
+		</dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<dict>
 			<key>hash</key>
@@ -1659,6 +1730,94 @@
 			<key>hash2</key>
 			<data>
 			HibDggDIVWeaLhIxrkTclME0yt5rmEXuj7Ti5Uf6qKU=
+			</data>
+		</dict>
+		<key>Entypo.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			R4cKZ91Qhxdl95nKqX2ochnuR8U=
+			</data>
+			<key>hash2</key>
+			<data>
+			3QhJoVkfiNp5N7I/kiQYpc7FTgdeCePMyo/rYgFvqoI=
+			</data>
+		</dict>
+		<key>EvilIcons.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kdN36jz0dJCyVsLtCBcEp9q9rgw=
+			</data>
+			<key>hash2</key>
+			<data>
+			pcrrTTlcXjLx1aMKyzgq68Zk8brf0UkxmQfyIV5OPiY=
+			</data>
+		</dict>
+		<key>Feather.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			N8tVG0ETiQxSP0aeapsrKcTEm+Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			vJZj1K7YcJfMyjc62U/QjeJKxKNRAOPfO30oFCyQCUo=
+			</data>
+		</dict>
+		<key>FontAwesome.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			E7HqtlqYPHpzvHmXxHnWaUP3xss=
+			</data>
+			<key>hash2</key>
+			<data>
+			qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg=
+			</data>
+		</dict>
+		<key>FontAwesome5_Brands.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			grn/4L28SVheCDsHNWSzXlD6Cdc=
+			</data>
+			<key>hash2</key>
+			<data>
+			VmDKN8uFHpEU+IgABQpNa1v4cdSL/n5ta6QzLYIgJV8=
+			</data>
+		</dict>
+		<key>FontAwesome5_Regular.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9g09gMIWA5vFMbtbzLdJj/uNipo=
+			</data>
+			<key>hash2</key>
+			<data>
+			E8IiY5q9YR0GZhnBZcWPWWs63Q1mSxsyvrfH6Cya8hE=
+			</data>
+		</dict>
+		<key>FontAwesome5_Solid.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WiG+2H4jPlxeguo6ACFcVEg34SU=
+			</data>
+			<key>hash2</key>
+			<data>
+			B3erbrnUcU8/Dw3dcYQ2/iIhqayo0EN1oVC1evRaAhU=
+			</data>
+		</dict>
+		<key>Foundation.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SyvObHkkk6SlcWtv7C2+/olJLD8=
+			</data>
+			<key>hash2</key>
+			<data>
+			fh3QPdTOkLZYBSVUzXRZ3xZxZxc4mlUvpMbVal+JM+Y=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
@@ -4458,6 +4617,50 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Ionicons.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mRu3+slwnNWNo3kBdw79RwPFQu0=
+			</data>
+			<key>hash2</key>
+			<data>
+			INFzvLYFHQlzvgymqi+08npbKQ2AEGyyxWfI/cdyxxE=
+			</data>
+		</dict>
+		<key>MaterialCommunityIcons.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PmK9EV4HWGvLGebzfI+xJbJhwQU=
+			</data>
+			<key>hash2</key>
+			<data>
+			qZwu36A5UVfTI1RNRiYHlZev6tjZiaFR6Ph0lGvHbeU=
+			</data>
+		</dict>
+		<key>MaterialIcons.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/AXeMSNOAJD33cKM4bI69AJssdo=
+			</data>
+			<key>hash2</key>
+			<data>
+			t/Sjq1YgSPKN0fppFgG8QzY6YdD4dtFtgxbFLk8y1pY=
+			</data>
+		</dict>
+		<key>Octicons.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			o/QP7s8JqAqYbxLVfGRtK0Wa+so=
+			</data>
+			<key>hash2</key>
+			<data>
+			8KI41G1nSeYBwS8g+PwDIB8Ze5/jR75MLJRP/FxLYDU=
+			</data>
+		</dict>
 		<key>PlugIns/TaxiBookingApp01Tests.xctest.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
@@ -4473,11 +4676,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lIkBo0sSPRWoDIF7U5WUyE0j0kc=
+			3rNYoHr6Pjhud8iVL6opyHTqyDU=
 			</data>
 			<key>hash2</key>
 			<data>
-			TIYo5F4X3HQ1lRkz2R3qG3U0akBrG9G5Zjfcm5/bIOg=
+			NpiQ3axIdd8oc7AuQ4imowAFVxsujmBfyE3kUZTN05s=
 			</data>
 		</dict>
 		<key>PlugIns/TaxiBookingApp01Tests.xctest/Info.plist</key>
@@ -4495,11 +4698,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0FX/DGY1x0jwT201wjMAT832X6A=
+			96KzY0M7E58tyXyl4K90zcTJC4c=
 			</data>
 			<key>hash2</key>
 			<data>
-			sGx70Ibn01Xem4O+7C8W2t6VzfXCXbIsSkQfPBmQtA8=
+			WW0wcl5y+pBItYnFpHdhzQL/WGhfootm+blIhMp0Vr8=
 			</data>
 		</dict>
 		<key>PlugIns/TaxiBookingApp01Tests.xctest/_CodeSignature/CodeResources</key>
@@ -4511,6 +4714,28 @@
 			<key>hash2</key>
 			<data>
 			kw0Tjw54qK2KSVHc3qZ/ckik6js2nE4WI28xNw51dzQ=
+			</data>
+		</dict>
+		<key>SimpleLineIcons.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			n/uBpaEREuKS8swyPphIa61ZdZk=
+			</data>
+			<key>hash2</key>
+			<data>
+			P1Ad2wXHCCm7tRz+nKn/9X854GBFfCV7PM8l33Z/CHA=
+			</data>
+		</dict>
+		<key>Zocial.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			C9pZx7zT05J94EfgkYdaRCi/0as=
+			</data>
+			<key>hash2</key>
+			<data>
+			17EKHr4YMOWi8I9JA7moDiwZEsDdL3O5P88r+DIhZgI=
 			</data>
 		</dict>
 	</dict>

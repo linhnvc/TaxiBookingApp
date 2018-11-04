@@ -22,11 +22,11 @@ export const FooterComponent = () => {
                     tabs.map((obj, index) => {
                         return (
                             <Button key={index}>
-                                <Icon size={18} name={obj.icon} color={(index === 0) ? '#ff5e3a' : '#eee'}/>
-                                <Text style={{ fontSize: 11, fontWeight: '600', color: (index === 0) ? '#ff5e3a' : '#eee' }}>
+                                <Icon size={18} name={obj.icon} color={(index === 0) ? '#009300' : '#eee'}/>
+                                <Text style={{ fontSize: 11, fontWeight: '600', color: (index === 0) ? '#009300' : '#eee' }}>
                                     {obj.title}
                                 </Text>
-                                <Text style={[styles.subText, {color: (index === 0) ? '#ff5e3a' : '#eee'}]}>
+                                <Text style={[styles.subText, {color: (index === 0) ? '#009300' : '#eee'}]}>
                                     {obj.subTitle}
                                 </Text>
                             </Button>

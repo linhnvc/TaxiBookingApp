@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>8044F108-16CB-40DA-A2B8-3CA856D01DBD</key>
+		<key>637FBA55-D385-4C8B-9973-B731DD5E367C</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>8044F108-16CB-40DA-A2B8-3CA856D01DBD.xcactivitylog</string>
+			<string>637FBA55-D385-4C8B-9973-B731DD5E367C.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>W</string>
 			<key>schemeIdentifier-containerName</key>
@@ -25,15 +25,15 @@
 			<key>schemeIdentifier-sharedScheme</key>
 			<integer>1</integer>
 			<key>signature</key>
-			<string>Building project TaxiBookingApp01 with scheme TaxiBookingApp01 and configuration Debug</string>
+			<string>Building workspace TaxiBookingApp01 with scheme TaxiBookingApp01 and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>562342143.45964396</real>
+			<real>562427538.68641305</real>
 			<key>timeStoppedRecording</key>
-			<real>562342146.75715804</real>
+			<real>562427540.73052204</real>
 			<key>title</key>
-			<string>Building project TaxiBookingApp01 with scheme TaxiBookingApp01 and configuration Debug</string>
+			<string>Building workspace TaxiBookingApp01 with scheme TaxiBookingApp01 and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>8044F108-16CB-40DA-A2B8-3CA856D01DBD</string>
+			<string>637FBA55-D385-4C8B-9973-B731DD5E367C</string>
 		</dict>
 	</dict>
 </dict>

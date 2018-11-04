@@ -140,12 +140,15 @@ function handleGetCurrentLocation(state, action) {
     return update(state, {
         region: {
             latitude: {
-                // $set: action.payload.coords.latitude
-                $set: 20.990210
+                $set: action.payload.coords.latitude
+                //$set: 21.009382
+                //$set: 21.027763,
+            
             },
             longitude: {
-                // $set: action.payload.coords.longitude
-                $set: 105.854332
+                $set: action.payload.coords.longitude
+                //$set: 105.537498
+                //$set: 105.834160,
             },
             latitudeDelta: {
                 $set: LATITUDE_DELTA
@@ -259,8 +262,8 @@ const ACTION_HANDLERS = {
 }
 const initialState = {
     region: {
-        latitude:21.027763,
-        longitude:105.834160,
+        latitude:21.009382,
+        longitude:105.537498,
         latitudeDelta:0.0922,
         longitudeDelta: 0.0421
     },
