@@ -4,9 +4,9 @@ import { View, Button } from "native-base";
 
 import styles from "./FabStyles";
 
-export const Fab = ({onPressAction}) => {
+export const PrepareFab = () => {
     return(
-        <Button style={styles.fabContainer} onPress={onPressAction}>
+        <Button style={styles.prepareFabContainer}>
             <Text style={styles.btnText}>
                 Book
             </Text>
@@ -14,7 +14,4 @@ export const Fab = ({onPressAction}) => {
     );
 }
 
-export default Fab;
-
-
-
+export default PrepareFab;

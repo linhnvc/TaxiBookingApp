@@ -7,6 +7,7 @@ import HeaderComponent from '../../../components/HeaderComponent/index';
 import FooterComponent from '../../../components/FooterComponent';
 import Fare from './Fare';
 import Fab from './Fab/index';
+import PrepareFab from './Fab/PrepareFab';
 
 class Home extends React.Component {
 
@@ -36,7 +37,14 @@ class Home extends React.Component {
                         selectedAddress={this.props.selectedAddress}
                     />
                 }
-                <Fab onPressAction={() => this.props.bookCar()}/>
+                {
+                    !this.props.fare 
+                    ? 
+                    <PrepareFab /> 
+                    : 
+                    <Fab onPressAction={() => this.props.bookCar()}/>
+                }
+                
                 {
                     this.props.fare && <Fare fare={this.props.fare} />
                 }

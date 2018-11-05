@@ -8,7 +8,7 @@ const styles = {
         alignItems: "center",
         justifyContent: "center",
         position: "absolute",
-        bottom: 110,
+        bottom: 150,
         right:20,
         shadowColor: "#000",
         shadowOpacity: 0.8,
@@ -32,6 +32,26 @@ const styles = {
     amount:{
         fontWeight:"bold",
         fontSize: 12
+    },
+    prepareFabContainer: {
+        borderColor: "#fff",
+        borderWidth: 5,
+        height: 80,
+        width: 80,
+        borderRadius: 40,
+        alignItems: "center",
+        justifyContent: "center",
+        position: "absolute",
+        bottom: 110,
+        right:20,
+        shadowColor: "#000",
+        shadowOpacity: 0.8,
+        shadowRadius: 2,
+        shadowOffset: {
+            height: 1,
+            width: 0
+        },
+        backgroundColor:"#009300"
     }
 };
 

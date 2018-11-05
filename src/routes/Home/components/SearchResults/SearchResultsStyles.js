@@ -5,7 +5,7 @@ const styles = {
         top:168,
         position:"absolute",
         width:width-30,
-        height:1000,
+        height:300,
         backgroundColor:"#fff",
         opacity:0.9,
         borderRadius: 20,
