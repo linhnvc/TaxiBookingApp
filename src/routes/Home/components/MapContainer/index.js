@@ -13,7 +13,15 @@ import SearchResults from '../SearchResults';
 //     ]
 // }
 
-export const MapContainer = ({region, getInputData, toggleSearchResult, getAddressPrediction, resultType, predictions, getSelectedAddress, selectedAddress}) => {
+export const MapContainer = ({
+    region,
+    getInputData,
+    toggleSearchResult, getAddressPrediction,
+    resultType, predictions, getSelectedAddress,
+    selectedAddress,
+    carMarker,
+    nearByDrivers
+}) => {
 
     return (
         <View style={styles.container}>
@@ -21,25 +29,34 @@ export const MapContainer = ({region, getInputData, toggleSearchResult, getAddre
                 provider={MapView.PROVIDER_GOOGLE}
                 style={styles.map}
                 region={region}
-                // customMapStyle={mapStyle}
+            // customMapStyle={mapStyle}
             >
-                <MapView.Marker 
+                <MapView.Marker
                     coordinate={region}
                     pinColor='#015102'
                     title="Linh"
                     description="Hahaha"
                 />
+                {
+					nearByDrivers && nearByDrivers.map((marker, index)=>
+						<MapView.Marker
+							key={index}
+							coordinate={{latitude:marker.coordinate.coordinates[1], longitude:marker.coordinate.coordinates[0] }}
+                            image={carMarker}
+						/>	
+					)
+				}
             </MapView>
-            <SearchBox 
-                getInputData={getInputData} 
-                toggleSearchResult={toggleSearchResult} 
+            <SearchBox
+                getInputData={getInputData}
+                toggleSearchResult={toggleSearchResult}
                 getAddressPrediction={getAddressPrediction}
                 selectedAddress={selectedAddress}
             />
             {
                 (resultType.pickUp || resultType.dropOff) &&
-                <SearchResults 
-                    predictions={predictions} 
+                <SearchResults
+                    predictions={predictions}
                     getSelectedAddress={getSelectedAddress}
                 />
             }

@@ -14,7 +14,8 @@ const { GET_CURRENT_LOCATION,
     GET_SELECTED_ADDRESS,
     GET_DISTANCE_MATRIX,
     GET_FARE,
-    BOOK_CAR
+    BOOK_CAR,
+    GET_NEARBY_DRIVERS
 } = constants;
 
 const { width, height } = Dimensions.get('window');
@@ -166,6 +167,42 @@ export function bookCar() {
     };
 }
 
+// get near driver:
+// export function getNearByDrivers() {
+//     return (dispatch, store) => {
+//         request.get("http://localhost:3000/api/driverLocation")
+//         .query({
+//             latitude: store().home.region.latitude,
+//             longitude: store().home.region.longitude,
+//         })
+//         .finish((err, res) => {
+//             dispatch({
+//                 type: GET_NEARBY_DRIVERS,
+//                 payload: res.body
+//             })
+//         })
+//     };
+// }
+
+export function getNearByDrivers(){
+	return(dispatch, store)=>{
+		request.get("http://localhost:3000/api/driverLocation")
+		.query({
+			latitude: store().home.region.latitude,
+            longitude: store().home.region.longitude,	
+		})
+		.finish((error, res)=>{
+			if(res){
+				dispatch({
+					type:GET_NEARBY_DRIVERS,
+					payload:res.body
+				});
+			}
+
+		});
+	};
+}
+
 
 
 // -------------------------------------------------------------------------------------
@@ -175,15 +212,16 @@ function handleGetCurrentLocation(state, action) {
     return update(state, {
         region: {
             latitude: {
-                $set: action.payload.coords.latitude
+                // $set: action.payload.coords.latitude
                 //$set: 21.009382
-                //$set: 21.027763,
+                $set: 21.004264,
             
             },
             longitude: {
-                $set: action.payload.coords.longitude
+                // $set: action.payload.coords.longitude
                 //$set: 105.537498
-                //$set: 105.834160,
+                $set: 105.845902,
+                
             },
             latitudeDelta: {
                 $set: LATITUDE_DELTA
@@ -291,6 +329,22 @@ function handleBookCar(state, action) {
     })
 }
 
+// function handleGetNearbyDrivers(state, action) {
+//     return update(state, {
+//         nearByDrivers: {
+//             $set: action.payload
+//         }
+//     })
+// }
+//handle get nearby drivers
+function handleGetNearbyDrivers(state, action){
+	return update(state, {
+		nearByDrivers:{
+			$set:action.payload
+		}
+	});
+}
+
 
 
 
@@ -303,6 +357,7 @@ const ACTION_HANDLERS = {
     GET_DISTANCE_MATRIX: handleGetDistanceMatrix,
     GET_FARE: handleGetFare,
     BOOK_CAR: handleBookCar,
+    GET_NEARBY_DRIVERS: handleGetNearbyDrivers
 }
 const initialState = {
     region: {
@@ -314,7 +369,8 @@ const initialState = {
     inputData: {},
     resultType: {},
     selectedAddress: {},
-    booking: {}
+    booking: {},
+    nearByDrivers: []
 };
 
 export function HomeReducer (state = initialState, action) {

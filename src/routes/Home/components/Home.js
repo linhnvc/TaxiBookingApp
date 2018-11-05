@@ -8,11 +8,17 @@ import FooterComponent from '../../../components/FooterComponent';
 import Fare from './Fare';
 import Fab from './Fab/index';
 import PrepareFab from './Fab/PrepareFab';
+// import carMarker from '../../../assets/carMarker.png';
+const carMarker = require("../../../assets/carMarker.png");
 
 class Home extends React.Component {
 
     componentDidMount() {
+        var rx = this;
         this.props.getCurrentLocation();
+        setTimeout(function(){
+            rx.props.getNearByDrivers();
+        }, 10000);
     }
     render() {
         const region = {
@@ -26,6 +32,7 @@ class Home extends React.Component {
                 <HeaderComponent />
                 {   
                     this.props.region && 
+                    
                     <MapContainer   
                         region={this.props.region} 
                         getInputData={this.props.getInputData} 
@@ -35,6 +42,8 @@ class Home extends React.Component {
                         predictions={this.props.predictions}
                         getSelectedAddress={this.props.getSelectedAddress}
                         selectedAddress={this.props.selectedAddress}
+                        carMarker={carMarker}
+                        nearByDrivers={this.props.nearByDrivers}
                     />
                 }
                 {
